@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="content">
+        <h1 class="logo">Loruki</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Features.html">Feature</a></li>
+            <li><a href="Docx.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="showcase" style="margin: 0%">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easier Deployment</h1>
+          <p class="text-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, a sunt,
+            dicta vitae quas iure voluptas, autem quaerat praesentium explicabo
+            impedit ducimus rem? Modi
+          </p>
+          <input
+            type="button"
+            class="btn btn-outline"
+            value="Read More"
+            placeholder="Read More"
+          />
+        </div>
+
+        <div class="showcase-form card">
+          <h2>Request Demo</h2>
+          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden">
+              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="text" name="Email" placeholder="Email" required />
+            </div>
+            <div class="form-control">
+              <input type="submit" value="Send" class="btn btn-primary" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading center my1">
+          Welcome to the best platform for building applictaion of all types
+          with modern architecture and scaling.
+        </h3>
+        <div class="grid grid-3 center my4">
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>10,348,259</h3>
+            <p class="text-sec">Deployments</p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>987TB</h3>
+            <p class="text-sec">Published</p>
+          </div>
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3>234,256,457</h3>
+            <p class="text-sec">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cli">
+      <div class="container grid">
+        <img src="images/cli.png" alt="cli" />
+        <div class="card">
+          <p>Easy to use platform</p>
+        </div>
+        <div class="card">
+          <p>Deployment in seconds</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cloud bg-primary">
+      <div class="container grid">
+        <div class="cloud-text">
+          <h2>Extreme Cloud Hosting</h2>
+          <p>Cloud hosting like you have never seen.</p>
+          <p>Fast,efficient and scalable</p>
+          <input type="button" class="btn btn-dark" value="Read More" />
+        </div>
+
+        <div class="cloud-img">
+          <img src="images/cloud.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="language">
+      <div class="language-text">
+        <h1>Supported Languages</h1>
+      </div>
+      <div class="container flex flex-gap">
+        <div class="card">
+          <h4>Node.js</h4>
+          <img src="images/logos/node.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Python</h4>
+          <img src="images/logos/python.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>PHP</h4>
+          <img src="images/logos/php.png" alt="" style="" />
+        </div>
+        <div class="card">
+          <h4>Ruby</h4>
+          <img src="images/logos/ruby.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Scala</h4>
+          <img src="images/logos/scala.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Go</h4>
+          <img src="images/logos/go.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>C#</h4>
+          <img src="images/logos/csharp.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="footer bg-dark" style="margin: 0%;">
+      <div class="container grid grid-3">  
+        <div class="footer-text">  
+          <h2>Loruki</h2>
+          <p>Copyright © 2020</p>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Features.html">Feature</a></li>
+            <li><a href="Docs.html">Docs</a></li>
+          </ul>
+        </nav>
+
+        <div class="social-media">
+          <i class="fab fa-twitter "></i>
+          <i class="fab fa-facebook-square "></i>
+          <i class="fab fa-instagram "></i>
+          <i class="fas fa-envelope "></i>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
